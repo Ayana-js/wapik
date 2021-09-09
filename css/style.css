@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff8f83b ;
+    margin-bottom: 215px;
+    padding: 26px 0;
+
+}
+
+.header__nav-left{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.nav-logo{
+    text-transform: uppercase;
+    padding-right: 25px;
+    margin: o;
+    margin-right: 25px;
+    border-right: 1px solid #fff8f83b;
+    cursor: pointer;
+    font-family: "Proxima Nova";
+}
+
+.nav-phone__block{
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+}
+
+.nav-phone__icon{
+    display: inline-block;
+    padding: 8px ;
+    background: url(../img/phone.png) no-repeat;
+    background-size: contain;
+}
+
+.nav-phone__number{
+    font-size: 13px;
+    margin-left: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item.bold{
+    font-weight: 700;
+}
+
+.menu__item{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu__item:hover{
+    background-color: #fff8f83b;
+} 
+
+.header-welcome-title{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.header-welcome-disc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.header-welcome-button{
+    background-color: #6fb048;
+    padding: 20px 43px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 197px;
+}
+
+.main {
+    text-align: center;
+    color: #0f5f5c;
+    padding: 95px 0 148px 0;
+}
+
+.main__title-divider{
+    max-width: 65px;
+    background-color: #6fb048;
+    margin: 20px auto;
+    height: 1px;
+    border: 0;
+}
+
+.main__title{
+    margin: 0;
+    color: #0f5f5c;
+    font-size: 32px; 
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.main__desc{
+    margin: 0 auto 70px auto;
+    color: #a1bcba;
+    max-width: 450px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.features__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 0 30px 0;
+    list-style-type: none;
+}
+
+.features__item{
+    max-width: 30%;
+}
+
+
+.features__item-img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+
+.features__item-img img {
+    max-height: 50px;
+}
+
+.features__item-desc {
+    margin: 0;
+    color: #92b2b0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.features__item-title {
+    margin: 0 0 23px 0;
+    font-size: 16px;
+}
+
+.divider{
+    position: relative;
+    height: 90px;
+    width: 2px;
+    background-color: #f2f2f2;
+    margin: 0 auto 53px auto;
+}
+
+.divider::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -43px;
+    width: 90px;
+    height: 2px;
+    background-color: #f2f2f2;
+}
+
+.subfeature__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.subfeature__item {
+   width: 45%;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.subfeature__item-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.subfeature__item-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin:0 0 0 20px;
+}
+
+.subfeature__item-desc {
+    font-size: 14px;
+    line-height: 22px;
+    color: #92b2b0 ;
+}
